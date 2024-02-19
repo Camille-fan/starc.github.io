@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dark Mode Example</title>
+<style>
+    body {
+        background-color: #1a1a1a; /* 黑色背景 */
+        color: #ffffff; /* 白色文本 */
+    }
+
+    /* 其他样式，根据您的需要添加 */
+
+    @media (prefers-color-scheme: light) {
+        body {
+            background-color: #ffffff; /* 如果系统为浅色模式，则切换为白色背景 */
+            color: #000000; /* 如果系统为浅色模式，则切换为黑色文本 */
+        }
+    }
+</style>
+</head>
+<body>
+    <!-- 页面内容 -->
+    <h1>Hello, World!</h1>
+    <p>This is a sample text in dark mode.</p>
+    <a href="http://www.youtube.com" 
+    target="_blank">link to youtube</a>
+    <!-- 其他内容 -->
+</body>
+</html>
